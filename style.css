@@ -1,0 +1,41 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, form {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+span {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 33%;
+  font-size: 2em;
+}
+
+body {
+  font-family: monospace;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
