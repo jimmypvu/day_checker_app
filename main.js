@@ -10,6 +10,7 @@ document.querySelector('#check').addEventListener('click', check)
     let today = new Date();
     let time = today.getHours();
     let hh = parseInt(time);
+    today.getDay();
 
 function check(){
     const day = document.querySelector('#day').value.toLowerCase();
@@ -33,8 +34,9 @@ if(day==="tuesday" || day==="thursday"){
     document.querySelector('body').style.color="black"
 
 
-}else if (day==="friday" && hh>17){
+}else if (day==="friday" && hh>17 && today.getDay()===5){
     document.querySelector('#alertGoHere').innerText =""
+//    document.querySelector('#player').innerText ='<iframe id="weeknd" width="1263" height="480" src="https://www.youtube.com/embed/V_cnK8Cd6Ag?autoplay=1" class="hidden" title="ladies and gentlemen, the weeknd (HD Original)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; allowfullscreen"></iframe>'
     document.querySelector('#weeknd').classList.toggle('hidden')
     document.querySelector('body').style.backgroundColor="black"
     document.querySelector('body').style.color="white"
