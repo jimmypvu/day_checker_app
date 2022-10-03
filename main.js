@@ -7,10 +7,12 @@ document.querySelector('#check').addEventListener('click', check)
 }
     CAN WRITE AS *seebelow*, no need to created new dayLC variable   */
 
+    let today = new Date();
+    let time = today.getHours();
+    let hh = parseInt(time);
+
 function check(){
     const day = document.querySelector('#day').value.toLowerCase();
-
-
 
 if(day==="tuesday" || day==="thursday"){
     document.querySelector('#alertGoHere').innerText ='CLASS TODAY'
@@ -31,7 +33,7 @@ if(day==="tuesday" || day==="thursday"){
     document.querySelector('body').style.color="black"
 
 
-}else if (day==="friday"){
+}else if (day==="friday" && hh>17){
     document.querySelector('#alertGoHere').innerText =""
     document.querySelector('#weeknd').classList.toggle('hidden')
     document.querySelector('body').style.backgroundColor="black"
