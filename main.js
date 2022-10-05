@@ -24,7 +24,7 @@ if(day==="tuesday" || day==="thursday"){
 
 }else if (day==="saturday" || day==="sunday"){
     document.querySelector('#alertGoHere').innerText = 'WEEKEND BABY!!'
-    document.querySelector('body').style.backgroundColor = "yellow"
+    document.querySelector('body').style.backgroundColor = "rgba(255, 255, 0, .60)"
     document.querySelector('body').style.color="black"
 
 }else if(day==="wednesday"){
