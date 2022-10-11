@@ -16,7 +16,8 @@ h1, form {
 
 button {
   display: block;
-  margin: 0 auto;
+  margin: .8rem auto .5rem;
+  padding: 0.2rem .6rem;
 }
 
 span {
@@ -25,14 +26,42 @@ span {
   text-align: center;
   width: 33%;
   font-size: 2em;
+  padding-bottom: .5rem;
 }
 
-body {
+* {
   font-family: monospace;
+}
+
+p {
+  text-align: center;
+}
+
+#heartGoHere{
+  display: inline;
+}
+
+#alertGoHere {
+  display: inline;
+}
+
+#heartGoHere{
+  margin-left: 0%;
+  color: red;
 }
 
 .hidden {
   display: none;
+  visibility: hidden;
+}
+
+#player {
+  display: flex;
+  align-items: center;
+}
+
+#weeknd {
+  margin: 0 auto;
 }
 
 
