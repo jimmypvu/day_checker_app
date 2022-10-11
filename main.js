@@ -38,7 +38,7 @@ if(day==="tuesday" || day==="thursday"){
     document.querySelector('body').style.color="black"
 
 
-}else if (day==="friday" && hh>15 /*&& today.getDay()===5*/){
+}else if (day==="friday" && hh>16 /*&& today.getDay()===5*/){
     document.querySelector('#alertGoHere').innerText = "XO"
     document.querySelector('#heartGoHere').classList.remove('hidden')
     document.querySelector('#weeknd').classList.remove('hidden')
