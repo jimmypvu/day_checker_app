@@ -41,12 +41,19 @@ p {
   display: inline;
 }
 
+#oGoHere{
+  display:inline;
+}
+
 #alertGoHere {
   display: inline;
 }
 
 #heartGoHere{
   margin-left: 0%;
+  font-size:small;
+  padding-top: 50%;
+  vertical-align: top;
   color: red;
 }
 
@@ -63,6 +70,7 @@ p {
 #weeknd {
   margin: 0 auto;
 }
+
 
 
 /******************************************
