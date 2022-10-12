@@ -72,6 +72,12 @@ p {
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+span {
+  font-family: 'Comforter Brush', cursive;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES

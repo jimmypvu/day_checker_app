@@ -23,6 +23,7 @@ if(day==="tuesday" || day==="thursday"){
     document.querySelector('#oGoHere').classList.add('hidden')
     document.querySelector('body').style.color="black"
     document.querySelector('span').style.fontStyle="normal"
+    document.querySelector('span').style.fontFamily="monospace"
 
 
 }else if (day==="saturday" || day==="sunday"){
@@ -33,6 +34,7 @@ if(day==="tuesday" || day==="thursday"){
     document.querySelector('#oGoHere').classList.add('hidden')
     document.querySelector('#heartGoHere').classList.add('hidden')
     document.querySelector('span').style.fontStyle="normal"
+    document.querySelector('span').style.fontFamily="monospace"
 
 }else if(day==="wednesday"){
     document.querySelector('#alertGoHere').innerText ="hump day."
@@ -42,6 +44,7 @@ if(day==="tuesday" || day==="thursday"){
     document.querySelector('#oGoHere').classList.add('hidden')
     document.querySelector('body').style.color="black"
     document.querySelector('span').style.fontStyle="normal"
+    document.querySelector('span').style.fontFamily="monospace"
 
 
 }else if (day==="friday" && hh>=17 /*&& today.getDay()===5*/){
@@ -54,6 +57,7 @@ if(day==="tuesday" || day==="thursday"){
     document.querySelector('body').style.backgroundColor="black"
     document.querySelector('body').style.color="white"
     document.querySelector('span').style.fontStyle="italic"
+    document.querySelector('span').style.fontFamily="Comforter Brush"
 
 }else if (day==="monday" || day==="friday" && hh<17){
     document.querySelector('#alertGoHere').innerText = 'booooooooorriiinngggggggg!'
@@ -63,6 +67,7 @@ if(day==="tuesday" || day==="thursday"){
     document.querySelector('#oGoHere').classList.add('hidden')
     document.querySelector('body').style.color="black"
     document.querySelector('span').style.fontStyle="normal"
+    document.querySelector('span').style.fontFamily="monospace"
 
 }else{
     alert('Try again');
