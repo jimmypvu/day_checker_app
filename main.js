@@ -1,4 +1,10 @@
 document.querySelector('#check').addEventListener('click', check)
+document.querySelector('#day').addEventListener('keypress', function(e){
+    if(e.key ==='Enter'){
+        check()
+        e.preventDefault()    
+    }
+});
 
 /* function check(){
     const day = document.querySelector('#day').value
